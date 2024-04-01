@@ -1,0 +1,10 @@
+info:
+  description: Codexist Case Study
+
+server:
+  port: ${PORT:8070}
+
+spring:
+  application:
+    name: config-server
+  data.mongodb.uri: mongodb://mongo:admin@localhost:27017/location-service?authSource=admin&readPreference=primary&directConnection=true&ssl=false
