@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.time.ZoneId;
 
 @Component
-public class LocationMapper {
+public class LocationApiMapper {
     public LocationResponse toResponse(LocationDto dto) {
         return LocationResponse.builder()
                 .id(dto.getId())
